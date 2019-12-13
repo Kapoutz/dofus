@@ -1,7 +1,7 @@
-import {Injectable} from "@angular/core";
-import {BehaviorSubject, config, Observable} from "rxjs";
-import {User} from "../model/User";
-import {HttpClient} from "@angular/common/http";
+import {Injectable} from '@angular/core';
+import {BehaviorSubject, config, Observable} from 'rxjs';
+import {User} from '../model/User';
+import {HttpClient} from '@angular/common/http';
 
 @Injectable({ providedIn: 'root' })
 export class AuthenticationService {
