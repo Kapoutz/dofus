@@ -7,6 +7,7 @@ import { IndexComponent} from './component/index/index.component';
 import { PlayersComponent } from './component/players/players.component';
 import { JobsComponent } from './component/jobs/jobs.component';
 import { PlayerJobsComponent } from './component/player-jobs/player-jobs.component';
+import { LoginComponent } from './component/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PlayerJobsComponent } from './component/player-jobs/player-jobs.compone
     IndexComponent,
     PlayersComponent,
     JobsComponent,
-    PlayerJobsComponent
+    PlayerJobsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
